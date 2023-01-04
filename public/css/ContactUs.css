@@ -1,0 +1,80 @@
+
+body {
+  font-family: "Lato", serif;
+}
+img {height: auto; width: auto\9; width:100%;}
+ul li{
+  list-style:none;
+}
+.center{
+  color: yellow;
+  margin-top: 20px !important ;
+}
+
+.orderfood:hover,
+.discount:hover,
+.tour:hover,
+.track:hover,
+.career:hover {
+  box-shadow: 7px 7px 14px 7px rgba(0, 0, 0, 0.3);
+}
+.container {
+  padding: 2px 14px;
+}
+
+fieldset {
+  border-color: yellow;
+}
+
+body {
+  margin: 0;
+}
+h2 {
+  text-align: center;
+  font-size: 200%;
+  width: 80%;
+}
+
+form {
+  border: 6px black;
+  padding-top: 1em;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 2px 2px 3px 3px grey;
+  width: 66%;
+}
+form textarea {
+  height: 80px;
+  width: 95%;
+  border: 1px solid #ccc;
+  line-height: 1.5;
+}
+form img {
+  height: 50px;
+  width: 50px;
+
+}
+
+form textarea {
+  height: 90px;
+  width: 91%;
+  line-height: 2;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-image: linear-gradient(to right, #ff9800c7 70%, yellow);
+  z-index: 10;
+}
+.footertext{
+  width: 100%;
+  color:black;
+  align-self: center;
+  padding-left: 27px;
+  text-align: center;
+}
+

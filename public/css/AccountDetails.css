@@ -1,0 +1,50 @@
+.form-control:focus {
+    box-shadow: none;
+
+}
+
+.profile-button {
+    box-shadow: none;
+    border: none
+}
+
+
+.profile-button:focus {
+    box-shadow: none
+}
+
+.profile-button:active {
+    box-shadow: none
+}
+
+.back:hover {
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+.social_site_icons {
+    width: 100px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-image: linear-gradient(to right, #ff9800c7 70%, yellow);
+    z-index: 10;
+}
+
+.footertext{
+    width: 100%;
+    color:black;
+    align-self: center;
+    padding-left: 27px;
+    text-align: center;
+}

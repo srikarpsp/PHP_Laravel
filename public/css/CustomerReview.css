@@ -1,0 +1,63 @@
+main {
+    top: 10%;
+    position: absolute;
+    overflow: auto;
+    bottom: 3%;
+    right: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: #ffa618;
+
+}
+body{
+    font-family: Calibri, Helvetica, sans-serif;
+    background-color: #ffa618;
+}
+.container {
+    padding: 40px;
+    background-position: 80% 88%;
+    background-repeat: no-repeat;
+    background-size:23%;
+    background-attachment:fixed;
+}
+
+label, h4{
+    color: white;
+    font-size: 25px;
+}
+
+input[type=text], input[type=password], textarea {
+    width: 40%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    color: white;
+    font-size: 25px;
+
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: orange;
+    outline: none;
+}
+div {
+    padding: 10px 0;
+}
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    opacity: 0.9;
+}
+.submit:hover {
+    opacity: 1;
+}

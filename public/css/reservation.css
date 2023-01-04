@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+}
+
+.header_wrapper {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  grid-template-rows: 125px;
+  justify-items: center;
+  align-items: center;
+}
+
+.header_img_holder {
+  justify-self: flex-end;
+}
+
+#rest_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
+  margin-top: 1%;
+}
+
+
+.res_holder .img_holder {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.res_holder .img_holder img {
+  width: 100%;
+  height: 200px;
+}
+
+.rest_info_holder {
+  border: 2px solid black;
+  border-radius: 10px;
+  position: relative;
+}
+
+.rest_info_holder .rest_name {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.rest_info_holder .rest_title {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.rest_info_holder .rest_desc {
+  font-size: 18px;
+  margin: 3px 20px;
+}
+
+.rest_info_holder .cost {
+  margin: 4px 20px;
+  display: block;
+}
+
+.rest_info_holder .description {
+  margin: 4px 20px;
+  display: block;
+}
+
+.rest_info_holder .reserve_btn {
+  margin: 10px 20px;
+  color: black;
+  text-decoration: none;
+  background-color: yellow;
+  width: 60px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-left: 307px;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.reserve-confirmation {
+  margin-top: 10%;
+}
+
+@media only screen and (min-width: 450px) and (max-width: 1020px) {
+  #rest_wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-image: linear-gradient(to right, #ff9800c7 70%, yellow);
+  z-index: 10;
+}
+
+.footertext{
+  width: 100%;
+  color:black;
+  align-self: center;
+  padding-left: 27px;
+  text-align: center;
+}
+
